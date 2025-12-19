@@ -15,4 +15,4 @@ The app is responsive and intended to work on both desktop and mobile devices, i
 
 The Developer Manual provides installation instructions, environment setup details, and guidance for extending the application.
 
-[View the Developer Manual](./developer-manual.md)
+[View the Developer Manual](./docs/developer-manual.md)
