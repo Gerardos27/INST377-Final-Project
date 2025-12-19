@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Highlights | FanZone</title>
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="index.html">FanZone</a>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="highlights.html">Highlights</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Highlights</h1>
+
+    <section class="card">
+      <h2>Filter</h2>
+      <div class="row">
+        <input id="competitionInput" class="input" placeholder="Try any league or competition of your choice" />
+        <button id="loadBtn" class="btn">Load</button>
+      </div>
+      <p class="muted">This filter is handled by the server endpoint.</p>
+    </section>
+
+    <section class="card">
+      <h2>Highlights slider</h2>
+
+      <div class="swiper">
+  <div class="swiper-wrapper" id="swiperWrapper"></div>
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+    </section>
+
+    <section class="card">
+      <h2>Chart</h2>
+      <p class="muted">Highlights per competition for this load.</p>
+      <canvas id="compChart" height="120"></canvas>
+    </section>
+
+    <section class="card" id="favorites">
+      <h2>Favorites</h2>
+      <p class="muted">Saved in Supabase.</p>
+      <ul id="favoritesList" class="list"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Data loads via Fetch API</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/highlights.js"></script>
+</body>
+</html>
