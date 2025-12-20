@@ -2,6 +2,9 @@
 
 FanZone Highlights is a web application that provides soccer fans with fast, centralized access to match highlight videos and game information using data from the Scorebat API. The app allows users to filter highlights by competition, view match videos in an interactive slider, visualize highlight data with charts, and save favorite matches to a backend database powered by Supabase. The goal of FanZone Highlights is to ensure users never miss important moments from matches across major soccer competitions.
 
+## Live Site
+https://inst-377-final-project-4mt9jwbcs-gerardos27s-projects.vercel.app
+
 ## Target Browsers
 
 This application is designed for modern web browsers and has been tested on the following:
